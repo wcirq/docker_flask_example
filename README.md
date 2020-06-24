@@ -1,5 +1,10 @@
 # 使用说明
  
+ - 执行 
+```shell script
+ python3 -m pip install uwsgi
+ ln -s /usr/local/python3.6/bin/uwsgi  /usr/bin/
+```
  - 安装docker-compose
  ```shell script
 # 下载docker-compose

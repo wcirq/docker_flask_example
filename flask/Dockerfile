@@ -13,7 +13,7 @@ ADD . /app
 
 # Install the dependencies
 # 安装相关依赖
-RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 # run the command to start uWSGI
 # 容器启动后要执行的命令 -> 启动uWSGI服务器
