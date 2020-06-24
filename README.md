@@ -37,5 +37,5 @@ docker-compose ps
 
  - 停止服务
 ```shell script
-docker-compose ps
+docker-compose stop 容器id
 ```
